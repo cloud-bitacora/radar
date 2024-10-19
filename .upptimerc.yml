@@ -5,12 +5,14 @@ repo: radar # The name of this repository
 sites:
   - name: Airdrop-Root24
     url: https://airdrop.root24.eu.org
+    method: POST
   - name: CloudPanel-Soporte
     url: https://cpanel.soporte.eu.org
   - name: Fpanel-IGMC
     url: https://larazon.igmc.news
   - name: Drive24
     url: https://drive.root24.eu.org/login
+    method: DELETE
   - name: Home Root24
     url: https://menu.root24.eu.org
   - name: CONDEVIN Web
