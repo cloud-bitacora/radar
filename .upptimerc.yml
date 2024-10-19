@@ -20,7 +20,7 @@ sites:
     expectedStatusCodes:
       - 403
   - name: Drive-24
-    url: https://drive.root24.eu.org/login/
+    url: https://drive.root24.eu.org/login
     expectedStatusCodes:
       - 403
   - name: CONDEVIN-Web
