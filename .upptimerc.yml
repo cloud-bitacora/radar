@@ -13,7 +13,7 @@ sites:
       - 403
   - name: Bitácora d ROOT
     url: https://www.bitacoraroot.com
-  - name: Fpanel LR-Sisetic
+  - name: Fpanel-LRSisetic
     url: https://larazon.sisetic.com
   - name: Airdrop-24
     url: https://airdrop.root24.eu.org
