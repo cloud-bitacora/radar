@@ -48,9 +48,9 @@ status-website:
   # TeroRERO introMessage: © LA RAZÓN - EL EXTRA - IGMC ®2024
   introMessage: © Derechos Reservados  2024
   navbar:
-    - title: Radar
+    - title: iRadar
       href: /
-    - title: La Razón
+    - title: Root24
       href: https://www.root24.eu.org
 
 i18n:
