@@ -97,19 +97,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/airdrop.root24.eu.org.ico",
     "slug": "airdrop-24",
     "status": "up",
-    "uptime": "3.57%",
-    "uptimeDay": "3.57%",
-    "uptimeWeek": "3.57%",
-    "uptimeMonth": "3.57%",
-    "uptimeYear": "3.57%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 343,
     "timeDay": 343,
     "timeWeek": 343,
     "timeMonth": 343,
     "timeYear": 343,
-    "dailyMinutesDown": {
-      "2024-10-19": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Drive-24",
@@ -117,19 +115,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/drive.root24.eu.org.ico",
     "slug": "drive-24",
     "status": "up",
-    "uptime": "2.13%",
-    "uptimeDay": "2.13%",
-    "uptimeWeek": "2.13%",
-    "uptimeMonth": "2.13%",
-    "uptimeYear": "2.13%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 274,
     "timeDay": 274,
     "timeWeek": 274,
     "timeMonth": 274,
     "timeYear": 274,
-    "dailyMinutesDown": {
-      "2024-10-19": 5
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "CONDEVIN Web",
