@@ -23,7 +23,7 @@ sites:
     url: https://drive.root24.eu.org/login/
     expectedStatusCodes:
       - 403
-  - name: CONDEVIN Web
+  - name: CONDEVIN-Web
     url: https://www.devinconde.com
     
 assignees:
