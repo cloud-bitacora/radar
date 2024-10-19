@@ -1,7 +1,7 @@
-url: https://drive.root24.eu.org/login
+url: drive.root24.eu.org
 status: up
-code: 403
-responseTime: 222
-lastUpdated: 2024-10-19T17:11:58.841Z
+code: 200
+responseTime: 3
+lastUpdated: 2024-10-19T17:19:00.168Z
 startTime: 2024-10-19T11:38:42.513Z
 generator: Upptime <https://github.com/upptime/upptime>
