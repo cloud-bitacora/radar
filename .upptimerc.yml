@@ -3,37 +3,124 @@ owner: cloud-bitacora # Your GitHub organization or username, where this reposit
 repo: radar # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: CloudPanel
-    url: https://cpanel.soporte.eu.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: AirDrop Root24
+  - name: Airdrop - Root24
     url: https://airdrop.root24.eu.org
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: CloudPanel Soporte
+    url: https://cpanel.soporte.eu.org
+  - name: Remoto
+    url: https://remoto.la-razon.com
+  - name: Drive24
+    url: https://drive.root24.eu.org/login
+  - name: Kamisaki
+    url: https://kamisaki.soporte.eu.org
+  - name: CONDEVIN Website
+    url: https://www.devinconde.com
+  - name: Bitácora d ROOT
+    url: https://www.bitacoraroot.com
+  - name: Ventas Inmediatas
+    url: https://ventasinmediatas.transturin.com
 
 assignees:
+#old   - terorero
   - cloud-bitacora
-  
+
+# Add downtime notifications
+# https://upptime.js.org/docs/notifications
+notifications:
+  - type: email
+    channel: smtp
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: radar.root24.eu.org
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # TeroRERO logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://www.la-razon.com/wp-content/themes/lr-genosha/assets/img/la-razon-logo.png
+  name: Radar de Servicios
+  introTitle: "**RADAR** Monitor en línea."
+  favicon: https://www.la-razon.com/wp-content/uploads/2020/04/favicon-lr.png
+  # TeroRERO introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # TeroRERO themes : Available themes are light, dark, night or ocean.
+ # theme: dark
+  theme: light  
+  # TeroRERO introMessage: © Derechos Reservados  2023
+  # TeroRERO introMessage: © LA RAZÓN - EL EXTRA - IGMC ®2024
+  introMessage: © Derechos Reservados  2024
   navbar:
-    - title: Status
+    - title: Radar
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: La Razón
+      href: https://www.root24.eu.org
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+# Pasando a spanish locale
+# TeroRERO  
+  activeIncidents: Incidentes Activos
+# allSystemsOperational: Todos los sistemas están operativos
+# allSystemsOperational: "🟩 Todos los sistemas operativos"
+  allSystemsOperational: "✅ Todos los sistemas operativos"
+  incidentReport: "Informe del incidente #$NUMBER →"
+  activeIncidentSummary: Abierto en fecha $DATE con mensajes $POSTS
+  incidentTitle: Incidente $NUMBER Detalles
+  incidentDetails: Detalles del incidente
+  incidentFixed: Fixed
+  incidentOngoing: En curso
+  incidentOpenedAt: Abierto en
+  incidentClosedAt: Cerrado en
+  incidentSubscribe: Suscribirse a las actualizaciones
+  incidentViewOnGitHub: Ver en GitHub
+  incidentCommentSummary: Publicado el $DATE por $AUTHOR
+  incidentBack: ← Volver a todos los incidentes
+  pastIncidents: Incidentes pasados
+  pastIncidentsResolved: Corregido en $MINUTES minutos con $POSTS mensajes
+  liveStatus: Estado en vivo
+  overallUptime: "Tiempo de actividad: $UPTIME"
+  overallUptimeTitle: Tiempo de actividad global
+  averageResponseTime: "Tiempo medio de respuesta: $TIMEms"
+  averageResponseTimeTitle: Respuesta media
+  sevelDayResponseTime: Tiempo de respuesta de 7 días
+  responseTimeMs: Tiempo de respuesta (ms)
+# TeroRERO desactiva   up: Arriba
+# TeroRERO desactiva  down: Abajo
+# TeroRERO desactiva  degraded: Degradado
+# TeroRERO INICIO
+  degradedPerformance: "🟨 Rendimiento degradado"
+  completeOutage: "🟥 Interrupción completa"
+  partialOutage: "🟧 Interrupción parcial"
+# TeroRERO FINAL
+  ms: ms
+  loading: Cargando
+  navGitHub: GitHub
+  footer: © Derechos reservados  2024, powered by [BITACORAROOT](https://www.bitacoraroot.com)
+  rateLimitExceededTitle: Límite de tarifa superado
+  rateLimitExceededIntro: Has superado el número de peticiones que puedes hacer en una hora, por lo que tendrás que esperar antes de volver a acceder a este sitio web. Como alternativa, puedes añadir un token de acceso personal de GitHub para seguir utilizando este sitio web.
+  rateLimitExceededWhatDoesErrorMean: ¿Qué significa este error?
+  rateLimitExceededErrorMeaning: Este sitio web utiliza la API de GitHub para acceder a datos en tiempo real sobre el estado de nuestros sitios web. Por defecto, GitHub permite a cada dirección IP 60 peticiones por hora, que tú has consumido.
+  rateLimitExceededErrorHowCanFix: ¿Cómo puedo solucionarlo?
+  rateLimitExceededErrorFix: Puedes esperar una hora más y se restablecerá el límite de tu dirección IP. Alternativamente, puedes añadir tu token de acceso personal de GitHub, que te proporciona 5.000 peticiones adicionales por hora.
+  rateLimitExceededGeneratePAT: Aprende a generar un Token de Acceso Personal
+  rateLimitExceededHasSet: Tienes un token de acceso personal establecido.
+  rateLimitExceededRemoveToken: Quitar token
+  rateLimitExceededGitHubPAT: Token de acceso personal de GitHub
+  rateLimitExceededCopyPastePAT: Copiar y pegar el token
+  rateLimitExceededSaveToken: Guardar token
+  errorTitle: Se ha producido un error
+  errorIntro: Se ha producido un error al intentar obtener los últimos detalles de estado.
+  errorText: Puede volver a intentarlo en unos momentos.
+  errorHome: Ir a la página de inicio
+  pastScheduledMaintenance: Mantenimiento programado pasado
+  scheduledMaintenance: Mantenimiento programado
+  scheduledMaintenanceSummaryStarted: Comenzó en $DATE durante $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Comienza en $DATE durante $DURATION minutos
+  startedAt: Comenzó en
+  startsAt: Comienza en
+  duration: Duración
+  durationMin: $DURATION minutos
+  incidentCompleted: Completado
+  incidentScheduled: Programado
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1a
+  durationAll: todo
