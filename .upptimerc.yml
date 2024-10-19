@@ -16,9 +16,9 @@ sites:
     expectedStatusCodes:
       - 403
   - name: Home-Root24
-    url: https://menu.root24.eu.org
-    expectedStatusCodes:
-      - 403
+    check: "tcp-ping"
+    url: menu.root24.eu.org
+    port: 443
   - name: CONDEVIN Web
     url: https://www.devinconde.com
   - name: Bitácora d ROOT
