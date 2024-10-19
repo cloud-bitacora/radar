@@ -6,14 +6,14 @@ sites:
   - name: Airdrop-Root24
     check: "tcp-ping"
     url: airdrop.root24.eu.org
-    port: 443
+    port: 53
   - name: CloudPanel-Soporte
     url: https://cpanel.soporte.eu.org
   - name: Fpanel-IGMC
     url: https://larazon.igmc.news
   - name: Drive24
     check: "tcp-ping"
-    url: drive.root24.eu.org
+    url: https://drive.root24.eu.org
     port: 443
   - name: Home-Root24
     check: "tcp-ping"
