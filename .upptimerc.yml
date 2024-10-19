@@ -8,9 +8,9 @@ sites:
   - name: Fpanel-IGMC
     url: https://larazon.igmc.news
   - name: Menu-24
-    url: http://menu.root24.eu.org
-# TeroRERO Disable    expectedStatusCodes:
-# TeroRERO Disable      - 403
+    url: https://menu.root24.eu.org
+    expectedStatusCodes:
+      - 403
   - name: Bitácora d ROOT
     url: https://www.bitacoraroot.com
   - name: Fpanel LR-Sisetic
