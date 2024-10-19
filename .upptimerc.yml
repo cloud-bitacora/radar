@@ -11,14 +11,14 @@ sites:
     url: https://remoto.la-razon.com
   - name: Drive24
     url: https://drive.root24.eu.org/login
-  - name: Kamisaki
-    url: https://kamisaki.soporte.eu.org
+  - name: Home Page Root24
+    url: https://menu.root24.eu.org
   - name: CONDEVIN Website
     url: https://www.devinconde.com
   - name: Bitácora d ROOT
     url: https://www.bitacoraroot.com
-  - name: Ventas Inmediatas
-    url: https://ventasinmediatas.transturin.com
+  - name: Root 24 - Home
+    url: https://www.root24.eu.org
 
 assignees:
 #old   - terorero
