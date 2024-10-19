@@ -6,9 +6,7 @@ sites:
   - name: Airdrop-Root24
     url: https://airdrop.root24.eu.org
     expectedStatusCodes:
-      - 200
       - 403
-      - 404
   - name: CloudPanel-Soporte
     url: https://cpanel.soporte.eu.org
   - name: Fpanel-IGMC
@@ -16,11 +14,11 @@ sites:
   - name: Drive24
     url: https://drive.root24.eu.org/login
     expectedStatusCodes:
-      - 200
       - 403
-      - 404
-  - name: Home Root24
+  - name: Home-Root24
     url: https://menu.root24.eu.org
+    expectedStatusCodes:
+      - 403
   - name: CONDEVIN Web
     url: https://www.devinconde.com
   - name: Bitácora d ROOT
