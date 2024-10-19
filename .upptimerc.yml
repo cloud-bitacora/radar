@@ -17,8 +17,12 @@ sites:
     url: https://larazon.sisetic.com
   - name: Airdrop-24
     url: https://airdrop.root24.eu.org
+    expectedStatusCodes:
+      - 403
   - name: Drive-24
     url: https://drive.root24.eu.org/login/
+    expectedStatusCodes:
+      - 403
   - name: CONDEVIN Web
     url: https://www.devinconde.com
     
