@@ -11,14 +11,14 @@ sites:
     url: https://remoto.la-razon.com
   - name: Drive24
     url: https://drive.root24.eu.org/login
-  - name: Home Page Root24
+  - name: Home Root24
     url: https://menu.root24.eu.org
-  - name: CONDEVIN Website
+  - name: CONDEVIN Web
     url: https://www.devinconde.com
   - name: Bitácora d ROOT
     url: https://www.bitacoraroot.com
-  - name: Root 24 - Home
-    url: https://www.root24.eu.org
+  - name: Fpanel LR-Sisetic
+    url: https://larazon.sisetic.com
 
 assignees:
 #old   - terorero
